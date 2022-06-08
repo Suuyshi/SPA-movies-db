@@ -1,0 +1,222 @@
+html,body {
+    margin: auto;
+    padding: auto;
+    position: relative;
+    background-image: url('http://html.bdiakcml8h-e92498n216kr.p.runcloud.link/blockbuster/images/uploads/slider-bg.jpg');
+}
+.navbar {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.item{
+    width: 285px;
+    height: 420px;
+}
+
+.layer{
+    background-color: cadetblue;
+}
+
+.poster-img{
+    width: 10%;
+    height: 10%;
+}
+
+.media-type {
+    cursor: pointer;
+}
+
+
+.media-type:hover {
+    background-color: rgba(197, 46, 46, 0.8);
+}
+
+.box{
+    color: white;
+}
+
+.person{
+    width: 298px;
+    height: 456px;
+    cursor: pointer;
+}
+
+.movie{
+    width: 298px;
+    height: 456px;
+    cursor: pointer;
+}
+
+
+/* h1{
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    
+    color:rgba(197, 46, 46, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation 
+    border-right: .15em solid orange; /* The typwriter cursor 
+    white-space: nowrap; /* Keeps the content on a single line 
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens 
+    /* letter-spacing: .15em; Adjust as needed 
+    animation: 
+        typing 3s steps(10, end) ,
+        blink-caret .75s step-end infinite,
+        appear 0s 5s forwards;
+    visibility: hidden;
+    animation-delay: .75s;
+    
+} */
+
+
+.loader {
+    position: absolute;
+    border: 16px solid #b61515; 
+    border-top: 16px solid #4c5c67; 
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite,
+               appear 0s 1s forwards;
+    left: 15px;
+    top: 190px;
+    visibility: hidden;
+
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+@keyframes appear {
+    to   { visibility: visible; }
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.webname:hover{
+    color: rgba(197, 46, 46, 0.8);
+}
+
+
+.badges {
+    display:flex;
+    position: absolute;
+    width: 300px;
+    bottom: 10px;
+    margin: auto;
+    padding: auto;
+}
+.badge{
+    flex-direction: row;
+}
+
+.carousel{
+    top: 115px;
+}
+
+#error-alert{
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+
+.person{
+    position: relative;
+}
+
+.vote {
+    position: absolute;
+    bottom: 23px;
+
+}
+
+.person-name{
+    position:absolute;
+    font-family: 'Lobster', cursive;
+    font-size: bold;
+    top: 10px;
+    left: 50px;
+    color: rgba(197, 46, 46, 0.8);
+}
+
+.movie-img-container{
+    width: 350px;
+    height: 500px;
+    position: fixed;
+
+}
+
+.header-sqooz{
+    height: 50px;
+}
+
+
+.movie-name {
+    
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: none;
+    margin-bottom: 25px;
+}
+
+.add-fav{
+    color: red;
+}
+
+.movie-rating{
+    color: white;
+}
+
+.rating{
+    border-top: 1px solid rgb(146, 144, 144);
+    border-bottom: 1px solid rgb(146, 144, 144);
+    
+}
+
+.rating-stars{
+    border-top: 1px solid rgb(146, 144, 144);
+    border-bottom: 1px solid rgb(146, 144, 144);
+    border-left: 1px solid rgb(146, 144, 144);
+
+}
+
+.tab-content{
+    color: white;
+}
+
+.part{
+    border-bottom: 1px solid rgb(146, 144, 144);
+}
+
+svg{
+    color: rgb(141, 43, 43);
+}
+
+.circle{
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
